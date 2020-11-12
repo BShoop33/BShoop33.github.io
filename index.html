@@ -35,13 +35,13 @@
 				<ul>
 					<li><a href="#top" id="top-link"><span class="icon solid fa-handshake">Introduction</span></a></li>
 
-					<li><a href="#about" id="about-link"><span class="icon solid fa-user-tie">About Me</span></a></li>
+					<li><a href="#resume" id="resume-link"><span class="icon fa-file">Resume</span></a>
 
 					<li><a href="#portfolio" id="portfolio-link"><span
 								class="icon solid fa-folder-open">Portfolio</span></a>
 					</li>
 
-					<li><a href="#resume" id="resume-link"><span class="icon fa-envelope">Resume</span></a>
+					<li><a href="#about" id="about-link"><span class="icon solid fa-user-tie">About Me</span></a></li>
 
 					<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a>
 
@@ -84,35 +84,31 @@
 			<div class="container">
 
 				<header>
-					<h2 id="intro">Hi! I'm Braxton. I'm a full-stack software developer in Nashville.
+					<h2 id="intro">Hi! I'm Braxton. I'm a junior full-stack software developer in Nashville.
 				</header>
 
 				<footer>
-					<a href="#about" class="button scrolly">About Me</a>
+					<a href="#resume" class="button scrolly">Resume</a>
 				</footer>
 
 			</div>
 		</section>
 
-		<!-- About Me -->
-		<section id="about" class="two">
+		<!-- Resume -->
+		<section id="resume" class="two">
 			<div class="container">
 
 				<header>
-					<h2>About Me</h2>
+					<h2>Resume</h2>
 				</header>
 
 				<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
-
-				<p id="aboutMe">I love to learn and apply new concepts in both my professional pursuits and personal
-					life. I decided
-					to attend NSS and pursue software development as a profession for three reasons. First, before
-					enrolling at NSS I greatly enjoyed the limited programming I had done professionally with HTML, CSS,
-					and VBA. Second, I enjoy the critical thinking aspects of problem-solving and engaging new
-					technologies. Third, I appreciate the fact that software programming is a field with an ever-growing
-					amount tools and support that will only continue to grow its long-term usefulness.
-				</p>
-
+				<!-- <form method="get" action="images/Braxton Shoop Resume 11112020.pdf">
+					<button type="submit" class="downloadResume" >Download Resume</button>
+				</form> -->
+				<button type="submit" class="downloadResume"><a href="/images//Braxton Shoop Resume 11112020.pdf"
+						download>Download Resume</a></button>
+				<embed id="resumeUpload" src="images/Braxton Shoop Resume 11112020.pdf" />
 			</div>
 		</section>
 
@@ -163,17 +159,25 @@
 			</div>
 		</section>
 
-		<!-- Resume -->
-		<section id="resume" class="four">
+		<!-- About Me -->
+		<section id="about" class="two">
 			<div class="container">
 
 				<header>
-					<h2>Resume</h2>
+					<h2>About Me</h2>
 				</header>
 
 				<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
 
-				<embed src="images/Braxton Shoop Resume 11112020.pdf" width=1400px" height="2100px" />
+				<p id="aboutMe">I love to learn and apply new concepts in both my professional pursuits and personal
+					life. I decided
+					to attend NSS and pursue software development as a profession for three reasons. First, before
+					enrolling at NSS I greatly enjoyed the limited programming I had done professionally with HTML, CSS,
+					and VBA. Second, I enjoy the critical thinking aspects of problem-solving and engaging new
+					technologies. Third, I appreciate the fact that software programming is a field with an ever-growing
+					amount tools and support that will only continue to grow its long-term usefulness.
+				</p>
+
 			</div>
 		</section>
 
@@ -185,10 +189,19 @@
 					<h2>Contact</h2>
 				</header>
 
-				<p>Elementum sem parturient nulla quam placerat viverra
-					mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-					donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-					orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+				<div id="telephoneContainer">
+					<span id="telephoneIconStyling">
+						<i class="fas fa-phone-square-alt" font-size="22pt"></i>
+					</span>
+					<h3 id="telephoneStyling">Telephone:&nbsp; 615.926.5661</h3>
+				</div>
+
+				<div id="emailContainer">
+					<span id="emailIconStyling">
+						<i class="far fa-paper-plane" font-size="22pt"></i>
+					</span>
+					<h3 id="emailStyling">Email:&nbsp; braxton.shoop@gmail.com</h3>
+				</div>
 
 				<form method="post" action="#">
 					<div class="row">
